@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/firstScreen">
+
+    <fragment
+        android:id="@+id/firstScreen"
+        android:name="com.example.selfchange.firstScreen"
+        android:label="fragment_first_screen"
+        tools:layout="@layout/fragment_first_screen" >
+        <action
+            android:id="@+id/action_firstScreen_to_scondScreen"
+            app:destination="@id/scondScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/scondScreen"
+        android:name="com.example.selfchange.scondScreen"
+        android:label="fragment_scond_screen"
+        tools:layout="@layout/fragment_scond_screen" >
+        <action
+            android:id="@+id/action_scondScreen_to_dashboardScreen"
+            app:destination="@id/dashboardScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardScreen"
+        android:name="com.example.selfchange.dashboardScreen"
+        android:label="fragment_dashboard_screen"
+        tools:layout="@layout/fragment_dashboard_screen" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_dashboardScreen_to_boxFragment"
+            app:destination="@id/boxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/drawer_navi"
+        android:name="com.example.selfchange.drawer_navi"
+        android:label="fragment_drawer_navi"
+        tools:layout="@layout/fragment_drawer_navi" />
+    <fragment
+        android:id="@+id/boxFragment"
+        android:name="com.example.selfchange.BoxFragment"
+        android:label="fragment_box"
+        tools:layout="@layout/fragment_box" >
+        <action
+            android:id="@+id/action_boxFragment_to_scratchFragment"
+            app:destination="@id/scratchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scratchFragment"
+        android:name="com.example.selfchange.scratchFragment"
+        android:label="fragment_scratch"
+        tools:layout="@layout/fragment_scratch" />
+</navigation>

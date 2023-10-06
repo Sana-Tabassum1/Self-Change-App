@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/blog"
+       android:title="Blog"
+       android:icon="@drawable/baseline_border_color_24"/>
+
+    <item android:id="@+id/dayRemin"
+        android:title="Reminder of the Day"
+        android:icon="@drawable/baseline_message_24"/>
+
+    <item android:id="@+id/commu"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Community Challenges"/>
+
+    <item android:id="@+id/group"
+        android:title="Group Challenges"
+        android:icon="@drawable/baseline_people_24"/>
+
+    <item android:id="@+id/share"
+        android:title="Share:)"
+        android:icon="@drawable/baseline_share_24"/>
+
+    <item android:id="@+id/book"
+        android:title="Buy my Book"
+        android:icon="@drawable/baseline_menu_book_24"/>
+
+    <item android:id="@+id/pos"
+        android:title="chase positivity Store"
+        android:icon="@drawable/baseline_storefront_24"/>
+
+    <item android:id="@+id/Contat"
+        android:title="Contact Us"
+        android:icon="@drawable/baseline_connect_without_contact_24"/>
+
+    <item android:id="@+id/dark"
+        android:title="Dark Mode"
+        android:icon="@drawable/baseline_dark_mode_24"/>
+
+    <item android:id="@+id/noti"
+        android:title="Notification"
+        android:icon="@drawable/baseline_notifications_24"/>
+
+    <item android:id="@+id/hidden"
+        android:title="hidden Challenges"
+        android:icon="@drawable/baseline_remove_red_eye_24"/>
+
+</menu>

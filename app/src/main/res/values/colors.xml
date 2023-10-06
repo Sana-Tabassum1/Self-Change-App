@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="litePink">#FE8E8D</color>
+    <color name="INVERTER">#0C6667</color>
+    <color name="Tetradic">#95C7F6</color>
+   <color name="monochromatic">#ce7877</color>
+    <color name="babypink">#f4c2c2</color>
+</resources>

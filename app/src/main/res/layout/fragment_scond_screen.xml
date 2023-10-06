@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:App="http://schemas.android.com/apk/res-auto"
+    tools:context=".scondScreen"
+    android:orientation="vertical"
+    android:background="@color/babypink">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nice to meet you"
+        android:fontFamily="@font/nice"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image"
+        android:hint=" Enter the Name"/>
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create the Life you love "
+        android:fontFamily="@font/nice"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="90dp"
+        android:paddingTop="27dp"
+        android:drawableTop="@drawable/arrow"
+        android:background="@drawable/button1" />
+
+
+</LinearLayout>
